@@ -1,0 +1,14 @@
+一、
+ 1、 windows上安装git
+    设置邮箱与名称
+        git config --global user.name "名称"
+        git config --global user.email "邮箱"
+ 2、操作
+    1、创建版本库
+       找到指定目录下 git init 创建版本库  pwd命令是用于显示当前的目录
+    2、把文件添加到版本库
+        1、git add 文件名称
+           git add . 添加全部
+        2、git commit -m "添加注释"//将文件提交到仓库
+           git status用于查看是否还有文件处于未提交状态
+           
