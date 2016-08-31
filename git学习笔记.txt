@@ -10,5 +10,7 @@
         1、git add 文件名称
            git add . 添加全部
         2、git commit -m "添加注释"//将文件提交到仓库
-           git status用于查看是否还有文件处于未提交状态
-           
+           git status//用于查看是否还有文件处于未提交状态
+           git diff 文件名称 //用于显示文件改动内容
+    3、版本回退
+        
